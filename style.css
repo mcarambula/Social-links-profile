@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+.text-white{
+    color: #fff;
+}
+
+.text-green {
+    color: hsl(75, 94%, 57%);
+}
+
+.bg-grey-700 {
+    background-color: hsl(0, 0%, 20%);
+}
+
+.bg-grey-800{
+    background-color: hsl(0, 0%, 12%);
+}
+
+.bg-grey-900{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.text-size-1 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.text-size-2 {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/* Fonts */
+.inter-400 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-600 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inter-700 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Challenge Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.inner-container {
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    max-width: 384px;
+}
+
+.thumbnail {
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+}
+
+.socials-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.socials-link {
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.socials-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+@media screen and (max-width: 767px){
+    .inner-container {
+        padding: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .inner-container {
+        max-width: 456px;
+    }
+}
