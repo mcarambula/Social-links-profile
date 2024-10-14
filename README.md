@@ -17,13 +17,13 @@ Your users should be able to:
 ### Screenshot
 #### Desktop:
 
-![Desktop](./preview-desktop.png)
+![Desktop](./assets/previews/preview-desktop.png)
 
 #### Tablet:
-<img src="./preview-tablet.png" width="768">
+<img src="./assets/previews/preview-tablet.png" width="768">
 
 #### Mobile:
-<img src="./preview-mobile.png" width="400">
+<img src="./assets/previews/preview-mobile.png" width="400">
 
 
 **Thank you!** 🚀
