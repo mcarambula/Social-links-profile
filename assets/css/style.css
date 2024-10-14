@@ -79,7 +79,7 @@
     max-width: 384px;
 }
 
-.thumbnail {
+.profile-thumbnail {
     border-radius: 50%;
     width: 88px;
     height: 88px;
@@ -101,7 +101,7 @@
     transition: all 0.5s;
 }
 
-.socials-link:hover {
+.socials-link:hover, .socials-link:focus {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
 }
